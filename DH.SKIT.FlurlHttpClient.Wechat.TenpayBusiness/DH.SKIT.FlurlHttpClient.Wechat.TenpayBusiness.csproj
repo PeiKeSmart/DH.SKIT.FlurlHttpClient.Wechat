@@ -5,7 +5,7 @@
     <RootNamespace>SKIT.FlurlHttpClient.Wechat.TenpayBusiness</RootNamespace>
     <AssemblyName>DH.SKIT.FlurlHttpClient.Wechat.TenpayBusiness</AssemblyName>
     <AssemblyTitle>微信 HTTP API SDK</AssemblyTitle>
-    <Description>用于DH框架的基于 Flurl.Http 的微信 HTTP API SDK，目前已包含公众平台、开放平台、商户平台、企业微信、广告平台、对话开放平台等模块。参考https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat</Description>
+    <Description>用于DH框架的基于 Flurl.Http 的微企付 API 客户端。参考https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat</Description>
     <Company>湖北登灏科技有限公司</Company>
     <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
     <VersionPrefix>4.12</VersionPrefix>
@@ -22,6 +22,7 @@
     <NoWarn>1701;1702;1591;NU5104;NU1505;NETSDK1138;CS7035</NoWarn>
     <AnalysisLevel>latest</AnalysisLevel>
     <WarningsAsErrors>CA2007</WarningsAsErrors>
+    <NullableReferenceTypes>true</NullableReferenceTypes>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -32,7 +33,7 @@
     <PackageIcon>DH.png</PackageIcon>
     <RepositoryUrl>https://github.com/PeiKeSmart/DH.SKIT.FlurlHttpClient.Wechat</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>湖北登灏科技有限公司;DH组件;DH;$(AssemblyName)</PackageTags>
+    <PackageTags>湖北登灏科技有限公司;DH组件;DH;$(AssemblyName);Flurl.Http;Tencent;Tenpay;FiT;腾讯金融科技服务平台;腾讯金融科技;腾讯金融;腾讯商企付;腾讯微企付;商企付;微企付</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
