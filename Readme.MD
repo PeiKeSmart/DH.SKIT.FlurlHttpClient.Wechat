@@ -1,3 +1,3 @@
-﻿# DH.SKIT.FlurlHttpClient.Common - 开放平台工具包
+﻿# DH.SKIT.FlurlHttpClient.Wechat - 微信 HTTP API SDK
 
-用于DH框架的一个开发工具包的公共组件。为开发者提供使用体验一致的、可跨平台的第三方 API .NET SDK。已支持微信、字节跳动、又拍云系列 API。
+用于DH框架的基于 Flurl.Http 的微信 HTTP API SDK，目前已包含公众平台、开放平台、商户平台、企业微信、广告平台、对话开放平台等模块。
