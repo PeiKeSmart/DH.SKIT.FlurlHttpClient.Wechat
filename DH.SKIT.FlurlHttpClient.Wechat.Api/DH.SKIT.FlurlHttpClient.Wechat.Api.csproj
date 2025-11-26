@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net9.0</TargetFrameworks>
+    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>SKIT.FlurlHttpClient.Wechat.Api</RootNamespace>
     <AssemblyName>DH.SKIT.FlurlHttpClient.Wechat.Api</AssemblyName>
@@ -8,7 +8,7 @@
     <Description>用于DH框架的基于 Flurl.Http 的微信 API 客户端，支持公众平台（订阅号、服务号、小程序、小游戏、小商店、视频号）、开放平台等平台，支持基础服务、模板消息、订阅消息、客服消息、动态消息、菜单管理、素材管理、留言管理、用户管理、账号管理、草稿箱、发布能力、数据统计、微信门店、微信小店、视频号小店、智能接口、一物一码、微信发票、微信非税缴费、插件管理、附近的小程序、小程序码、小程序搜索、URL Scheme、URL Link、即时配送、物流助手、直播、生物认证、虚拟支付、开放数据、对局匹配、帧同步、内容安全、安全风控、交易组件、小程序联盟、第三方平台、服务平台等功能。参考https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat</Description>
     <Company>湖北登灏科技有限公司</Company>
     <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
-    <VersionPrefix>4.12</VersionPrefix>
+    <VersionPrefix>4.16</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
     <FileVersion>$(Version)</FileVersion>
@@ -46,8 +46,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BouncyCastle.Cryptography" Version="2.6.1" />
-    <PackageReference Include="DH.SKIT.FlurlHttpClient.Common" Version="4.12.2025.622-beta1332" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.6.2" />
+    <PackageReference Include="DH.SKIT.FlurlHttpClient.Common" Version="4.12.2025.622-beta1654" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
