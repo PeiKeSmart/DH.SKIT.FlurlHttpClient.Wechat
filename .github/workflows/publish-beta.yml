@@ -10,7 +10,7 @@ on:
         - 'DH.SKIT.FlurlHttpClient.Wechat.TenpayBusiness/**'
         - 'DH.SKIT.FlurlHttpClient.Wechat.TenpayV2/**'
         - 'DH.SKIT.FlurlHttpClient.Wechat.TenpayV3/**'
-        - 'Pek.NCube.FrameWork/**'
+        - 'DH.SKIT.FlurlHttpClient.Wechat.Work/**'
   pull_request:
     branches: [ main ]
     paths:
