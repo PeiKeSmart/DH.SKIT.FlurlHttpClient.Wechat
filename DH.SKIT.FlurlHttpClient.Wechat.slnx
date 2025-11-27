@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".github/workflows/publish-beta.yml" />
+    <File Path=".github/workflows/publish.yml" />
+    <File Path="global.json" />
+    <File Path="NuGet.config" />
+    <File Path="Readme.MD" />
+  </Folder>
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.Ads/DH.SKIT.FlurlHttpClient.Wechat.Ads.csproj" />
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.Api/DH.SKIT.FlurlHttpClient.Wechat.Api.csproj" />
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.OpenAI/DH.SKIT.FlurlHttpClient.Wechat.OpenAI.csproj" />
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.TenpayBusiness/DH.SKIT.FlurlHttpClient.Wechat.TenpayBusiness.csproj" />
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.TenpayV2/DH.SKIT.FlurlHttpClient.Wechat.TenpayV2.csproj" />
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.TenpayV3/DH.SKIT.FlurlHttpClient.Wechat.TenpayV3.csproj" />
+  <Project Path="DH.SKIT.FlurlHttpClient.Wechat.Work/DH.SKIT.FlurlHttpClient.Wechat.Work.csproj" />
+</Solution>
